@@ -1,0 +1,9 @@
+{
+  "audit_id": "RA-2026-Q4-0117",
+  "archive_provider": "research_archive_mirror",
+  "title_token": "MBA-SLAM",
+  "method_summary": "Dense visual SLAM for motion-blurred video: the tracker models the physical image formation of motion blur during camera exposure, and the mapper can be neural radiance fields or 3D Gaussian splatting.",
+  "published_on_or_before": "2025-09-30",
+  "minimum_candidates": 6,
+  "entry_path": "entries/RA-2026-Q4-0117.json"
+}
