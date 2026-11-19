@@ -3,7 +3,7 @@
   "paper": {
     "title": "MBA-SLAM: Motion Blur Aware Gaussian Splatting SLAM",
     "record_id": "2411.08279v2",
-    "published": "2024-11-13",
+    "published": "2024-11-13T01:38:06+00:00",
     "landing_page_url": "https://arxiv.org/abs/2411.08279v2",
     "stated_repository_url": "https://github.com/WU-CVGL/MBA-SLAM"
   },
@@ -24,6 +24,55 @@
       "stargazers_count": 78,
       "implements_paper": true,
       "note": "The authors' official implementation of the complete MBA-SLAM pipeline, including the motion-blur-aware tracker and both NeRF- and 3DGS-based mappers."
+    },
+    {
+      "full_name": "spla-tam/SplaTAM",
+      "repository_url": "https://github.com/spla-tam/SplaTAM",
+      "stargazers_count": 2222,
+      "implements_paper": false,
+      "note": "SplaTAM is a dense RGB-D Gaussian-splatting SLAM system for sharp images; it does not model motion blur during camera exposure and has no motion-blur-aware tracker."
+    },
+    {
+      "full_name": "muskie82/MonoGS",
+      "repository_url": "https://github.com/muskie82/MonoGS",
+      "stargazers_count": 2194,
+      "implements_paper": false,
+      "note": "MonoGS is a monocular Gaussian-splatting SLAM system for sharp input; it has no exposure-time motion-blur model."
+    },
+    {
+      "full_name": "3D-Vision-World/awesome-NeRF-and-3DGS-SLAM",
+      "repository_url": "https://github.com/3D-Vision-World/awesome-NeRF-and-3DGS-SLAM",
+      "stargazers_count": 2166,
+      "implements_paper": false,
+      "note": "A curated paper list for NeRF/3DGS SLAM, not a code implementation of any method."
+    },
+    {
+      "full_name": "VladimirYugay/Gaussian-SLAM",
+      "repository_url": "https://github.com/VladimirYugay/Gaussian-SLAM",
+      "stargazers_count": 1190,
+      "implements_paper": false,
+      "note": "Gaussian-SLAM is a generic dense Gaussian-splatting SLAM system for sharp images; it does not model motion blur during exposure."
+    },
+    {
+      "full_name": "ShuhongLL/SGS-SLAM",
+      "repository_url": "https://github.com/ShuhongLL/SGS-SLAM",
+      "stargazers_count": 761,
+      "implements_paper": false,
+      "note": "SGS-SLAM is a semantic Gaussian-splatting SLAM system for sharp images and does not implement motion-blur-aware tracking or mapping."
+    },
+    {
+      "full_name": "Chaphlagical/Deblur-GS",
+      "repository_url": "https://github.com/Chaphlagical/Deblur-GS",
+      "stargazers_count": 411,
+      "implements_paper": false,
+      "note": "Deblur-GS reconstructs 3D Gaussian splatting from camera-motion-blurred images offline; it is not a dense visual SLAM system."
+    },
+    {
+      "full_name": "SpectacularAI/3dgs-deblur",
+      "repository_url": "https://github.com/SpectacularAI/3dgs-deblur",
+      "stargazers_count": 249,
+      "implements_paper": false,
+      "note": "Offline Gaussian-splatting reconstruction with blur and rolling-shutter compensation; it provides no SLAM tracking or mapping pipeline."
     },
     {
       "full_name": "NaufalGhifari/MBA-SLAM-fork",
