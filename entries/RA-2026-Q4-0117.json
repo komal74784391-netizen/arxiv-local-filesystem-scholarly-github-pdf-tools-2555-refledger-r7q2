@@ -1,0 +1,106 @@
+{
+  "audit_id": "RA-2026-Q4-0117",
+  "paper": {
+    "title": "MBA-SLAM: Motion Blur Aware Gaussian Splatting SLAM",
+    "record_id": "2411.08279v2",
+    "published": "2024-11-13",
+    "landing_page_url": "https://arxiv.org/abs/2411.08279v2",
+    "stated_repository_url": "https://github.com/WU-CVGL/MBA-SLAM"
+  },
+  "artifact": {
+    "path": "artifacts/2411.08279v2.pdf",
+    "sha256": "810a2f6e9bc617f06ebbe1d54f4da0e85c68139856aa2f87491a994fe4d11c1a"
+  },
+  "adoption": {
+    "repository_url": "https://github.com/WU-CVGL/MBA-SLAM",
+    "full_name": "WU-CVGL/MBA-SLAM",
+    "stargazers_count": 78,
+    "rationale": "WU-CVGL/MBA-SLAM is the authors' official release of the complete MBA-SLAM pipeline, containing the motion-blur-aware tracker and the NeRF/3DGS mappers, and it has the largest community following among all genuine implementations surveyed (78 stars versus 0 for the only other full-code fork)."
+  },
+  "candidates": [
+    {
+      "full_name": "WU-CVGL/MBA-SLAM",
+      "repository_url": "https://github.com/WU-CVGL/MBA-SLAM",
+      "stargazers_count": 78,
+      "implements_paper": true,
+      "note": "The authors' official implementation of the complete MBA-SLAM pipeline, including the motion-blur-aware tracker and both NeRF- and 3DGS-based mappers."
+    },
+    {
+      "full_name": "NaufalGhifari/MBA-SLAM-fork",
+      "repository_url": "https://github.com/NaufalGhifari/MBA-SLAM-fork",
+      "stargazers_count": 0,
+      "implements_paper": true,
+      "note": "A full fork of the official repository with the identical complete source tree and README, preserving the exact MBA-SLAM implementation."
+    },
+    {
+      "full_name": "whuhxb/MBA-SLAM",
+      "repository_url": "https://github.com/whuhxb/MBA-SLAM",
+      "stargazers_count": 0,
+      "implements_paper": false,
+      "note": "A stale fork that contains only the original project-page README and assets, with no source code or runnable implementation."
+    },
+    {
+      "full_name": "qian5683/MBA-SLAM",
+      "repository_url": "https://github.com/qian5683/MBA-SLAM",
+      "stargazers_count": 0,
+      "implements_paper": false,
+      "note": "Another stale fork containing only the original project-page README and assets, not the implementation."
+    },
+    {
+      "full_name": "ethliup/MBA-VO",
+      "repository_url": "https://github.com/ethliup/MBA-VO",
+      "stargazers_count": 59,
+      "implements_paper": false,
+      "note": "MBA-VO is the authors' earlier motion-blur-aware visual odometry work; it tracks exposure-time camera trajectories but has no dense NeRF/3DGS mapper, so it is a precursor rather than a full MBA-SLAM implementation."
+    },
+    {
+      "full_name": "WU-CVGL/BAD-Gaussians",
+      "repository_url": "https://github.com/WU-CVGL/BAD-Gaussians",
+      "stargazers_count": 277,
+      "implements_paper": false,
+      "note": "BAD-Gaussians performs bundle-adjusted deblurring of a fixed blurry image set with 3D Gaussian splatting; it is an offline reconstruction component, not the dense visual SLAM pipeline of MBA-SLAM."
+    },
+    {
+      "full_name": "WU-CVGL/BAD-NeRF",
+      "repository_url": "https://github.com/WU-CVGL/BAD-NeRF",
+      "stargazers_count": 200,
+      "implements_paper": false,
+      "note": "BAD-NeRF performs bundle-adjusted deblurring of a fixed image set with a neural radiance field; it lacks the tracker and SLAM system that define MBA-SLAM."
+    },
+    {
+      "full_name": "WU-CVGL/Bad-RFs",
+      "repository_url": "https://github.com/WU-CVGL/Bad-RFs",
+      "stargazers_count": 19,
+      "implements_paper": false,
+      "note": "An accelerated nerfstudio reimplementation of BAD-NeRF; it is a deblurring component, not an implementation of MBA-SLAM's SLAM pipeline."
+    },
+    {
+      "full_name": "Jho-Yonsei/CoMoGaussian",
+      "repository_url": "https://github.com/Jho-Yonsei/CoMoGaussian",
+      "stargazers_count": 58,
+      "implements_paper": false,
+      "note": "CoMoGaussian models continuous camera motion for 3D Gaussian splatting from motion-blurred images, but it is a reconstruction method without SLAM tracking or mapping."
+    },
+    {
+      "full_name": "FraGirla/Deblur-SLAM",
+      "repository_url": "https://github.com/FraGirla/Deblur-SLAM",
+      "stargazers_count": 2,
+      "implements_paper": false,
+      "note": "Deblur-SLAM is a separate monocular deblurring Gaussian-splatting SLAM method; it shares blur vocabulary but is not an implementation of MBA-SLAM's RGB-D pipeline with its MBA-VO-style motion-blur-aware tracker."
+    },
+    {
+      "full_name": "SlamMate/Unblur-SLAM",
+      "repository_url": "https://github.com/SlamMate/Unblur-SLAM",
+      "stargazers_count": 35,
+      "implements_paper": false,
+      "note": "Unblur-SLAM is a separate CVPR 2026 dense neural SLAM method that handles blurry inputs using DROID-SLAM plus an EVSSM deblurring network; its problem setting and blur modelling differ from MBA-SLAM."
+    },
+    {
+      "full_name": "umautobots/trgs_slam",
+      "repository_url": "https://github.com/umautobots/trgs_slam",
+      "stargazers_count": 14,
+      "implements_paper": false,
+      "note": "TRGS-SLAM targets IMU-aided Gaussian-splatting SLAM for thermal, rolling-shutter and noisy images using B-spline trajectories, a different problem setting and model."
+    }
+  ]
+}
