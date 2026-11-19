@@ -15,7 +15,7 @@
     "repository_url": "https://github.com/WU-CVGL/MBA-SLAM",
     "full_name": "WU-CVGL/MBA-SLAM",
     "stargazers_count": 78,
-    "rationale": "WU-CVGL/MBA-SLAM is the authors' official release of the complete MBA-SLAM pipeline, containing the motion-blur-aware tracker and the NeRF/3DGS mappers, and it has the largest community following among all genuine implementations surveyed (78 stars versus 0 for the only other full-code fork)."
+    "rationale": "The only surveyed project implementing the paper's exact motion-blur-aware dense visual SLAM method; all higher-star projects are general Gaussian-splatting SLAM or deblurring variants."
   },
   "candidates": [
     {
